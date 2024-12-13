@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="m-0 p-0 font-Montserrat h-auto w-full">
+    <header class="flex flex-col gap-2">
+        <nav id="nav1" class=" hidden lg:flex py-5 w-full h-[58px] bg-[#252b42] text-white flex-row justify-between px-12">
+            <div class="flex flex-row gap-3 font-bold text-sm w-auto">
+                <div class="flex gap-1.5 text-center w-[170px] items-center">
+                    <img class="w-[16px] h-[16px]" src="images/call icon.png" alt="">
+                    <h6>(225) 555-0118</h6>
+                </div>
+                <div class="flex gap-1.5 items-center ">
+                    <img class="w-[16px] h-[12px]" src="images/email.png" alt="">
+                    <h6>michelle.rivera@example.com</h6>
+                </div>
+            </div>
+            <div>
+                <h6 class="font-bold text-sm ">Follow Us  and get a chance to win 80% off</h6>
+            </div>
+            <div class="flex flex-row gap-3 font-bold text-sm">
+                <h6>Follow Us</h6>
+                <p>:</p>
+                <div class="flex flex-row gap-5 items-center">
+                    <img class="w-[16px] h-[16px]" src="images/insta.png" alt="">
+                    <img class="w-[16px] h-[11.24px]" src="images/youtuve.png" alt="">
+                    <img class="w-[16px] h-[16px]" src="images/fb icon.png" alt="">
+                    <img class="w-[16px] h-[13px]" src="images/twitter icon.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <nav id="nav2" class="h-[70px] w-auto flex justify-between px-8 md:justify-around lg:justify-between flex-row md:px-5 lg:px-14 items-center gap-5 lg:gap-10">
+            <h3 class="font-bold text-2xl">Bandage</h3>
+            <div class="hidden md:flex flex-row justify-between items-center w-[80%]">
+                <div class="flex flex-row items-center gap-3 lg:gap-6 font-bold text-[#737373] w-auto">
+                    <a href="">Home</a>
+                    <div class="flex flex-row gap-3 items-center">
+                        <a class=" flex gap-3 text-[#252b42] font-medium" href="index1.html">Shop </a>
+                        <img class="w-auto h-[10px] cursor-pointer" src="images/down arrowicon.png" alt="">
+                    </div>
+                    <a href="index2.html">About</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                    <a href="">Pages</a>
+                </div>
+                <div class="flex flex-row gap-8 items-center w-auto">
+                    <div class="flex text-[#23a6f0] font-bold text-sm gap-1.5 items-center">
+                        <img class="w-[13px] h-[12px]" src="images/user blue icon.png" alt="">
+                        <a href="">login</a>
+                        <p>/</p>
+                        <a href="">Register</a>
+                    </div>
+                    <img class="cursor-pointer w-[18px] h-[16px]" src="images/search icon.png" alt="">
+                    <div class="flex gap-1.5">
+                        <img class="cursor-pointer w-[18px] h-[16px]" src="images/shop cart icon.png" alt="">
+                        <p class="font-light text-sm text-[#5abcf4]">1</p>
+                    </div>
+                    <div class="flex gap-1.5">
+                        <img class="cursor-pointer w-[18px] h-[16px]" src="images/like icon.png" alt="">
+                        <p class="font-light text-sm text-[#5abcf4]">1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-7 items-center">
+                <img class="cursor-pointer block md:hidden w-[24px] h-[24px]" src="images/search black icon.png" alt="">
+                <img class="cursor-pointer block md:hidden w-[24px] h-[17.5px]" src="images/shop cart black icon.png" alt="">
+                <img class="cursor-pointer block md:hidden w-[24px] h-[14px]" src="images/open meny black.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="newCollection" class="h-[950px] w-[100%] flex items-center justify-center bg-no-repeat bg-cover bg-center" style="background-image: url(images/main\ img\ blue\ 2.jpeg);">
+            <div class="flex flex-col gap-10 text-white px-0 sm:w-1/2 sm:mr-36 items-center sm:items-start sm:mt-5 sm:text-start text-center">
+                <h5 class="font-bold  text-[16px]">SUMMER 2020</h5>
+                <h1 class="font-bold text-[40px] sm:text-[58px]">NEW COLLECTION</h1>
+                <h4 class="font-normal text-[20px] px-10 sm:px-0 sm:w-[70%] xl:w-[45%] ">We know how large objects will act, but things on a small scale.</h4>
+                <button class="bg-ButtonGreen py-3 w-1/2 sm:w-1/2 xl:w-[25%] rounded-sm font-bold text-[24px] text-center">SHOP NOW</button>
+            </div>
+        </div>
+        <div id="Editor's Pick" class="bg-[#fafafa] h-auto py-24 w-full flex flex-col justify-center items-center gap-14">
+            <div class="flex flex-col items-center justify-center gap-3">
+                <h3 class="font-bold text-[24px] text-textCol">EDITOR'S PICK</h3>
+                <p class="font-normal  text-[#737373] text-sm text-center px-28 xs:text-start xs:px-0">Problems trying to resolve the conflict between </p>
+            </div>
+            <div class="h-auto flex flex-col md:flex-row w-auto justify-between gap-7 ">
+                <div class="w-[340px] sm:w-[500px] md:w-[44vw] xl:w-[26.563vw] h-[500px] bg-no-repeat bg-cover bg-top xl:bg-center p-6 flex items-end justify-start" style="background-image: url(images/boy\ image\ real.jpeg);" >
+                    <button class="font-bold text-[16px] px-16 py-3 text-center bg-white ">MEN</button>
+                </div>
+                <div class="w-[340px] sm:w-[500px] md:w-[22vw] xl:w-[12.5vw] h-[500px] bg-no-repeat bg-cover bg-center px-[75px] py-5  xs:p-5 flex items-end justify-start" style="background-image: url(images/women\ image\ real.jpeg);">
+                    <button class="font-bold text-[16px] px-10 py-3 text-center bg-white ">WOMEN</button>
+                </div>
+                <div class="w-[340px] sm:w-[500px] md:w-[22vw] xl:w-[12.5vw] h-[500px] flex flex-col gap-4 ">
+                    <div class="w-[340px] sm:w-[500px] md:w-[22vw] xl:w-[12.5vw] h-[242px] bg-no-repeat bg-cover bg-top xl:bg-center px-3 py-5  flex items-end justify-start" style="background-image: url(images/chinese\ women\ image.jpeg);">
+                        <button class="font-bold text-[16px] px-8 py-3 text-center bg-white ">ACCESSORIES</button>
+                    </div>
+                    <div class="w-[340px] sm:w-[500px] md:w-[22vw] xl:w-[12.5vw] h-[242px] bg-no-repeat bg-cover bg-top xl:bg-center p-4 flex items-end justify-start" style="background-image: url(images/print\ yellow\ shirt\ guy.jpeg);">
+                        <button class="font-bold text-[16px] px-10 py-3 text-center bg-white ">KIDS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="best_Seller_Products" class="flex flex-col items-center justify-center gap-14 px-10 md:px-36 xl:px-72 2xl:px-96 py-14 h-auto w-auto">
+            <div class="flex flex-col gap-3">
+                <h4 class="font-normal text-[#737373] text-[20px] text-center">Featured Products</h4>
+                <h3 class="font-bold text-[24px] text-textCol text-center px-6 sm:px-0">BESTSELLER PRODUCTS</h3>
+                <p class="font-normal text-[14px] text-[#7b7b7b] text-center px-11 sm:px-0">Problems trying to resolve the conflict between </p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-x-8 gap-y-24 ">
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/black\ lady\ in\ green\ t\ shirt.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6">
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/boy\ in\ white\ print\ tshirt.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6">
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/white\ girl\ in\ pink.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6">
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/girl\ in\ leather\ jacket.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6">
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/guy\ in\ white\ long\ jacket.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6">
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/white\ girl\ in\ yellow.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6">
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/white\ men\ in\ red\ hoddy.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6">
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                <div class="card flex flex-col text-center">
+                    <div class="w-[320px] h-[500px] sm:w-[239px] sm:h-[427px] bg-no-repeat bg-cover bg-center cursor-pointer" style="background-image: url(images/black\ but\ white\ boy\ in\ black\ tshirt.jpeg);"></div>
+                    <div class="flex flex-col gap-3 items-center py-6"> cursor-pointer
+                        <h5 class="font-bold text-textCol text-[16px]">Graphic Design</h5>
+                        <a class="font-bold text-[14px] text-[#737373]" href="">English Department</a>
+                        <div class="flex flex-row gap-2.5 justify-center">
+                            <h5 class="font-bold text-[16px] text-[#bdbdbd]">$16.48</h5>
+                            <h5 class="font-bold text-[16px] text-[#23856d]">$6.48</h5>
+                        </div>
+                        <img class="w-[82px] h-[16px]" src="images/product-colors.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="Classic_Product" class="bg-primaryGreen px-10 sm:px-20 lg:px-36 flex flex-col md:flex-row mt-16 h-auto justify-around items-center">
+            <div class="flex flex-col gap-6 pt-20 sm:pb-20 sm:pt-20 md:py-0">
+                <h4 class="font-normal text-[20px] text-center md:text-start text-white">SUMMER 2020</h4>
+                <h1 class="font-bold text-[58px] text-center md:text-start text-white md:pr-10">Vita Classic Product</h1>
+                <p class="font-normal text-[14px] px-10 sm:px-0 text-center md:text-start text-white md:pr-20">We know how large objects will act, We know how are objects will act, We know</p>
+                <div class="flex flex-col md:flex-row gap-9 items-center text-white">
+                    <h3 class="font-bold text-[24px]">$16.48</h3>
+                    <button class="bg-ButtonGreen font-bold text-[14px] px-10 py-4 rounded-md">ADD TO CART</button>
+                </div>
+            </div>
+            <img class="w-auto h-auto sm:w-[443px] sm:h-[685px] mt-6" src="images/green section image of white men in white shirt.png" alt="">
+        </div>
+        <div id="2chineseInRed" class="flex flex-col-reverse py-28 md:py-0 md:flex-row justify-center gap-0 md:gap-20 xl:gap-32 h-auto md:h-[682px]  items-center">
+            <div class=" w-[340px] h-[353px] md:w-[725px] md:h-[774px] md:-z-10 md:mb-24 bg-no-repeat bg-cover bg-center md:bg-center" style="background-image: url(images/2\ chinese\ in\ red.png);"></div>
+            <div class="flex flex-col gap-5">
+                <h5 class="md:text-start text-center pr-4 pl-4 md:pl-0 md:pr-7 font-bold text-[16px] text-[#BDBDBD]">SUMMER 2020</h5>
+                <h2 class="md:text-start text-center  pr-4 pl-4 md:pl-0 md:pr-7 font-bold text-textCol text-[40px]">Part of the Neural 
+                    Universe</h2>
+                <h4 class="md:text-start text-center pr-4 pl-4 md:pl-0 md:pr-7 font-normal text-[20px] text-[#737373]">We know how large objects will act, 
+                    but things on a small scale.</h4>
+                <div class="flex flex-col mx-auto md:mx-0 md:flex-row gap-5 md:gap-3 justify-center md:justify-normal">
+                    <button class=" font-bold text-[14px] bg-[#23a6f0] md:bg-ButtonGreen px-9 py-3 rounded-md text-white">Buy Now</button>
+                    <button class=" font-bold text-[14px] text-[#23a6f0] md:text-ButtonGreen px-9 py-3 rounded-md  bg-white border-[1px] md:border-ButtonGreen border-[#23a6f0]">Read More</button>
+                </div>
+            </div>
+        </div>
+        <div id="FeaturedPosts" class="flex h-auto w-full p-8 md:p-32 justify-center items-center flex-col gap-16">
+            <div class="text-center 2xl:w-[40vw]">
+                <h6 class="text-[#23A6F0] font-bold text-[14px]">Practice Advice</h6>
+                <h2 class="text-textCol font-bold text-[40px]">Featured Posts</h2>
+                <p class="text-[#737373] font-normal text-[14px] 2xl:px-52">Problems trying to resolve the conflict between 
+                    the two major realms of Classical physics: Newtonian mechanics </p>
+            </div>
+            <div class="flex flex-row justify-center flex-wrap items-center gap-y-9 gap-x-4">
+                <div id="PCard" class="flex flex-col gap-4 shadow-md rounded-sm">
+                    <div class="bg-no-repeat bg-cover bg-center w-[320px] sm:w-[348px] h-[300px] p-4 cursor-pointer" style="background-image: url(images/first\ place.jpeg);">
+                        <h6 class="bg-[#e74040] text-white font-bold text-center text-[14px] w-[3.5rem] py-0.5">NEW</h6>
+                    </div>
+                    <div class="flex flex-col gap-5 p-6 w-[320px] sm:w-[348px]">
+                        <div class="flex flex-row gap-3 justify-start">
+                            <small class="font-normal text-[12px] text-[#8EC2F2]">Google</small>
+                            <small class="font-normal text-[12px] text-[#737373]">Trending</small>
+                            <small class="font-normal text-[12px] text-[#737373]">New</small>
+                        </div>
+                        <h4 class="font-normal text-[20px] text-textCol">Loudest à la Madison #1 
+                            (L'integral)</h4>
+                        <p class="font-normal text-[14px] text-[#737373] ">We focus on ergonomics and meeting 
+                            you where you work. It's only a 
+                            keystroke away.</p>
+                        <div class="justify-between flex flex-row">
+                            <div class="flex flex-row gap-2 items-center">
+                                <img class="w-[12.94px] h-[13.14px]" src="images/clock icon blue.png" alt="">
+                                <small class="font-normal text-[12px] text-[#737373]">22 April 2021</small>
+                            </div>
+                            <div class="flex flex-row gap-2 items-center">
+                                <img class="w-[16px] h-[14.67px]" src="images/graph icon green.png" alt="">
+                                <small class="font-normal text-[12px] text-[#737373]">10 comments</small>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-3 items-center">
+                            <h6 class="font-bold text-[14px] text-[#737373] cursor-pointer">Learn More</h6>
+                            <img class="w-[9px] h-[16px] cursor-pointer" src="images/greater than icon blue.png" alt="">
+                        </div> 
+                    </div>
+                </div>
+                <div id="PCard" class="flex flex-col gap-4 shadow-md rounded-sm">
+                    <div class="bg-no-repeat bg-cover bg-center w-[320px] sm:w-[348px] h-[300px] p-4 cursor-pointer" style="background-image: url(images/2nd\ place.jpeg);">
+                        <h6 class="bg-[#e74040] text-white font-bold text-center text-[14px] w-[3.5rem] py-0.5">NEW</h6>
+                    </div>
+                    <div class="flex flex-col gap-5 p-6 w-[320px] sm:w-[348px]">
+                        <div class="flex flex-row gap-3 justify-start">
+                            <small class="font-normal text-[12px] text-[#8EC2F2]">Google</small>
+                            <small class="font-normal text-[12px] text-[#737373]">Trending</small>
+                            <small class="font-normal text-[12px] text-[#737373]">New</small>
+                        </div>
+                        <h4 class="font-normal text-[20px] text-textCol">Loudest à la Madison #1 
+                            (L'integral)</h4>
+                        <p class="font-normal text-[14px] text-[#737373] ">We focus on ergonomics and meeting 
+                            you where you work. It's only a 
+                            keystroke away.</p>
+                        <div class="justify-between flex flex-row">
+                            <div class="flex flex-row gap-2 items-center">
+                                <img class="w-[12.94px] h-[13.14px]" src="images/clock icon blue.png" alt="">
+                                <small class="font-normal text-[12px] text-[#737373]">22 April 2021</small>
+                            </div>
+                            <div class="flex flex-row gap-2 items-center">
+                                <img class="w-[16px] h-[14.67px]" src="images/graph icon green.png" alt="">
+                                <small class="font-normal text-[12px] text-[#737373]">10 comments</small>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-3 items-center">
+                            <h6 class="font-bold text-[14px] text-[#737373] cursor-pointer">Learn More</h6>
+                            <img class="w-[9px] h-[16px] cursor-pointer" src="images/greater than icon blue.png" alt="">
+                        </div> 
+                    </div>
+                </div>
+                <div id="PCard" class="flex flex-col gap-4 shadow-md rounded-sm">
+                    <div class="bg-no-repeat bg-cover bg-center w-[320px] sm:w-[348px] h-[300px] p-4 cursor-pointer" style="background-image: url(images/3rd\ place.jpeg);">
+                        <h6 class="bg-[#e74040] text-white font-bold text-center text-[14px] w-[3.5rem] py-0.5">NEW</h6>
+                    </div>
+                    <div class="flex flex-col gap-5 p-6 w-[320px] sm:w-[348px]">
+                        <div class="flex flex-row gap-3 justify-start">
+                            <small class="font-normal text-[12px] text-[#8EC2F2]">Google</small>
+                            <small class="font-normal text-[12px] text-[#737373]">Trending</small>
+                            <small class="font-normal text-[12px] text-[#737373]">New</small>
+                        </div>
+                        <h4 class="font-normal text-[20px] text-textCol">Loudest à la Madison #1 
+                            (L'integral)</h4>
+                        <p class="font-normal text-[14px] text-[#737373] ">We focus on ergonomics and meeting 
+                            you where you work. It's only a 
+                            keystroke away.</p>
+                        <div class="justify-between flex flex-row">
+                            <div class="flex flex-row gap-2 items-center">
+                                <img class="w-[12.94px] h-[13.14px]" src="images/clock icon blue.png" alt="">
+                                <small class="font-normal text-[12px] text-[#737373]">22 April 2021</small>
+                            </div>
+                            <div class="flex flex-row gap-2 items-center">
+                                <img class="w-[16px] h-[14.67px]" src="images/graph icon green.png" alt="">
+                                <small class="font-normal text-[12px] text-[#737373]">10 comments</small>
+                            </div>
+                        </div>
+                        <div class="flex flex-row gap-3 items-center">
+                            <h6 class="font-bold text-[14px] text-[#737373] cursor-pointer">Learn More</h6>
+                            <img class="w-[9px] h-[16px] cursor-pointer" src="images/greater than icon blue.png" alt="">
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bandage" class="h-[200px] sm:h-[142px] w-full flex flex-col justify-center px-10 sm:px-0 gap-6 items-start sm:gap-0 sm:flex-row sm:justify-around sm:items-center bg-[#fafafa]">
+            <h3 class="font-bold text-[24px] text-textCol">Bandage</h3>
+            <div class="flex items-center justify-center flex-row gap-7">
+                <img class="w-[24px] h-[24px] " src="images/fb icon in blue.png" alt="">
+                <img class="w-[24px] h-[24px] " src="images/insta icon in blue.png" alt="">
+                <img class="w-[24px] h-[19.76px] " src="images/twitter i con in blue.png" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="h-auto w-full px-14 py-20 gap-x-28 gap-y-11 flex flex-wrap flex-row justify-start sm:justify-center">
+            <div class="flex flex-col gap-5">
+                <h5 class="font-bold text-[16px] text-textCol">Company Info</h5>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">About Us</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Carrier</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">We are hiring</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Blog</a>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h5 class="font-bold text-[16px] text-textCol">Legal</h5>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">About Us</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Carrier</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">We are hiring</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Blog</a>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h5 class="font-bold text-[16px] text-textCol">Features</h5>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">About Us</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Carrier</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">We are hiring</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Blog</a>
+            </div>
+            <div class="flex flex-col gap-5">
+                <h5 class="font-bold text-[16px] text-textCol">Resources</h5>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">About Us</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Carrier</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">We are hiring</a>
+                <a href="#" class="font-bold text-[14px] text-[#737373] ">Blog</a>
+            </div>
+            <div class="flex flex-col gap-3">
+                <h5 class="font-bold text-[16px] text-textCol">Get in Touch</h5>
+                <div class="flex flex-row gap-0 items-center justify-start">
+                    <input class=" bg-[#f9f9f9] border-gray-200 rounded-sm border-[1px] w-[10rem] sm:w-auto pl-4 py-3 sm:py-5 placeholder:pl-2 placeholder:font-normal placeholder:text-[14px] placeholder:text-[#737373]" placeholder="Your Email" type="email" name="email_name" id="email_id">
+                    <button class="py-3 sm:py-5 px-3 sm:px-7 font-normal text-[14px] border-[1px] border-[#23A6F0] bg-[#23A6F0] text-white text-center">Subscribe</button>
+                </div>
+                <p class="text-[12px] font-normal text-[#737373]">Lore imp sum dolor Amit</p>
+            </div>
+        </div>
+        <div class="bg-[#FAFAFA] h-[90px] sm:h-[74px] px-16 sm:px-32 xl:px-80 w-full flex text-center sm:text-start justify-start items-center">
+            <h6 class="font-bold text-[14px] text-[#737373]">Made With Love By Finland All Right Reserved</h6>
+        </div>
+    </footer>
+</body>
+</html>
